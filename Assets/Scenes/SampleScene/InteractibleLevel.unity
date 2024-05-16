@@ -2110,7 +2110,7 @@ MonoBehaviour:
       m_Name: Is Tracked
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: be9ca869-2866-44f9-90a9-57e912483f26
+      m_Id: 8c8faf84-ae7f-4c28-9b5c-57e372279061
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2213,7 +2213,7 @@ MonoBehaviour:
       m_Name: UI Scroll
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 6e6b12be-6582-4421-8158-3dd11c772f46
+      m_Id: 37796303-e8a5-4916-9802-b9de864df861
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2277,7 +2277,7 @@ MonoBehaviour:
       m_Name: Scale Toggle
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 7c6275bb-716f-49c6-823f-14988c96cb9a
+      m_Id: 67bb5191-6e53-44c4-b660-d0743970ceb5
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2289,7 +2289,7 @@ MonoBehaviour:
       m_Name: Scale Delta
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 8ea9a3ab-d4e2-429c-82a0-4815933dbf15
+      m_Id: 08d71658-f72f-4920-b0d1-9263212fbb9d
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -4658,7 +4658,7 @@ MonoBehaviour:
       m_Name: Is Tracked
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 229204d7-eee7-4eb0-bce8-5238a65c92a6
+      m_Id: 31794091-2f60-4d2c-a8a4-d875f5985747
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -4761,7 +4761,7 @@ MonoBehaviour:
       m_Name: UI Scroll
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 7a286fe0-f884-4184-af40-8a074cf614d2
+      m_Id: e37de3ab-8198-43cc-88a8-a95796013f1a
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -4825,7 +4825,7 @@ MonoBehaviour:
       m_Name: Scale Toggle
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 0d673dee-67f6-466f-a1d2-216547924e35
+      m_Id: b827448b-e132-4fde-9879-226272923c83
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -4837,7 +4837,7 @@ MonoBehaviour:
       m_Name: Scale Delta
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: bed4eee1-37b5-4647-a3fc-7d6d25d5b31b
+      m_Id: 5657f5fe-d8d9-413d-ba6d-1ae945ea86c5
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
