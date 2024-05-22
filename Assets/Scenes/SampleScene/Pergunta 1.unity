@@ -177,6 +177,11 @@ MonoBehaviour:
   fase:
   - Cutscene2-3
   - Cutscene3-5
+  pergunta:
+  - resposta cena 1
+  - resposta cena 2
+  - resposta cena 3
+  - resposta cena 4
 --- !u!1 &287121183
 GameObject:
   m_ObjectHideFlags: 0

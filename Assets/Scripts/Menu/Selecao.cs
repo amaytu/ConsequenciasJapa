@@ -15,7 +15,7 @@ public class Selecao : MonoBehaviour
     private int botaoSelecionadoIndice = 0;
     private bool botaoSendoPressionado = false;
     private float tempoPressionado = 0f;
-    private float tempoPressionadoNecessario = 2.5f;
+    private float tempoPressionadoNecessario = 1.5f;
     private bool bloqueiaBotao;
     private bool carregandoFase = false;
 

@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Fase2/Cutscene2.unity
     guid: 92aa017f85174d249b13b8c4f50492ec
   - enabled: 1
+    path: Assets/Scenes/SampleScene/Pergunta 2.unity
+    guid: bc7d8b260a7586246a7d55a5f414c443
+  - enabled: 1
     path: Assets/Scenes/Fase2/Cutscene3.unity
     guid: 22b7d40d2432d004dbffa31d20ad538f
   - enabled: 1
