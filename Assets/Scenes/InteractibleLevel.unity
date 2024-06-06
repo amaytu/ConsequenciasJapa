@@ -992,7 +992,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 8
   rotationSpeed: 8
-  rotationSensitivity: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
   clicksNeeded: 5
 --- !u!1 &255957862
 GameObject:
@@ -1524,7 +1525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 9
   rotationSpeed: 8
-  rotationSensitivity: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
   clicksNeeded: 5
 --- !u!1 &371770120 stripped
 GameObject:
@@ -3110,7 +3112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 6
   rotationSpeed: 8
-  rotationSensitivity: 5
+  duration: 5
+  finalRotation: {x: 359, y: 268, z: 165}
   clicksNeeded: 5
 --- !u!1001 &851350955
 PrefabInstance:
@@ -3321,7 +3324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 7
   rotationSpeed: 8
-  rotationSensitivity: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
   clicksNeeded: 5
 --- !u!1001 &911737683
 PrefabInstance:
@@ -3667,7 +3671,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 0
   rotationSpeed: 8
-  rotationSensitivity: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
   clicksNeeded: 5
 --- !u!95 &976151794
 Animator:
@@ -4201,7 +4206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 4
   rotationSpeed: 8
-  rotationSensitivity: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
   clicksNeeded: 5
 --- !u!1 &1265821619
 GameObject:
@@ -5969,7 +5975,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 3
   rotationSpeed: 8
-  rotationSensitivity: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
   clicksNeeded: 5
 --- !u!1001 &1691704672
 PrefabInstance:
@@ -6082,7 +6089,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 1
   rotationSpeed: 8
-  rotationSensitivity: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
   clicksNeeded: 5
 --- !u!1001 &1755222511
 PrefabInstance:
@@ -6947,7 +6955,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 3
   rotationSpeed: 8
-  rotationSensitivity: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
   clicksNeeded: 5
 --- !u!1001 &1983014153
 PrefabInstance:
@@ -7173,7 +7182,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 2
   rotationSpeed: 8
-  rotationSensitivity: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
   clicksNeeded: 5
 --- !u!1001 &2126190671
 PrefabInstance:

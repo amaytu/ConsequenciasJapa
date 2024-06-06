@@ -7,58 +7,41 @@ public class InteractableObject : MonoBehaviour
 {
     public EItems itemType;
     public float rotationSpeed = 8;
-    public float rotationSensitivity = 5f; // Sensibilidade do movimento de rotação
-    public int clicksNeeded = 5; 
-    private int clickCount = 0;
+    public float duration = 5f; // Duration for rotation to complete
+    public Vector3 finalRotation; // Final rotation angles in degrees
+    private float sceneLoadDelay = 5.5f; // Delay before loading the next scene
 
     private bool isTheItem = false;
-    private Vector3 initialMousePosition;
     private Quaternion initialRotation;
+    private Quaternion targetRotation;
+    private float rotationTime = 0f;
+    private float elapsedTime = 0f;
 
     void Start()
     {
         isTheItem = Utils.CurrentItem == itemType;
         gameObject.SetActive(isTheItem);
         initialRotation = transform.rotation;
+        targetRotation = Quaternion.Euler(finalRotation);
     }
 
     void Update()
     {
         if (!isTheItem) return;
 
-        if (Input.GetMouseButton(0))
+        // Rotate the object over time towards the target rotation
+        if (rotationTime < duration)
         {
-            Vector3 currentMousePosition = Input.mousePosition;
-            Vector3 mouseDelta = currentMousePosition - initialMousePosition;
-            float rotationX = -mouseDelta.y * rotationSensitivity;
-            float rotationY = mouseDelta.x * rotationSensitivity;
-
-            // Aplicar a rotação
-            transform.rotation = initialRotation * Quaternion.Euler(rotationX, rotationY, 0);
-
+            rotationTime += Time.deltaTime;
+            float t = Mathf.Clamp01(rotationTime / duration);
+            transform.rotation = Quaternion.Slerp(initialRotation, targetRotation, t);
         }
 
-        if (Input.GetMouseButtonUp(0))
+        // Track the elapsed time and load the scene after the delay
+        elapsedTime += Time.deltaTime;
+        if (elapsedTime >= sceneLoadDelay)
         {
-            CheckIfTheAngleIsRight();
-        }
-
-        if (Input.GetMouseButtonUp(0))
-        {
-            clickCount++;
-
-            if (clickCount >= clicksNeeded)
-            {
-                SceneManager.LoadScene(Utils.NextScene, LoadSceneMode.Single);
-            }
-        }
-
-         void CheckIfTheAngleIsRight()
-        {
-            if (transform.rotation.eulerAngles.IsInRange(Utils.FinalAngle, 5))
-            {
-                SceneManager.LoadScene(Utils.NextScene, LoadSceneMode.Single);
-            }
+            SceneManager.LoadScene(Utils.NextScene, LoadSceneMode.Single);
         }
     }
 }

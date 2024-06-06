@@ -992,8 +992,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 8
   rotationSpeed: 8
-  rotationSensitivity: 5
-  clicksNeeded: 5
+  duration: 5
+  finalRotation: {x: 274, y: 356, z: 6}
 --- !u!1 &255957862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,8 +1524,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 9
   rotationSpeed: 8
-  rotationSensitivity: 5
-  clicksNeeded: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &371770120 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4664554385750938975, guid: 36c85408af998784b82c0da7b62a9126,
@@ -3110,8 +3110,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 6
   rotationSpeed: 8
-  rotationSensitivity: 5
-  clicksNeeded: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
 --- !u!1001 &851350955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3321,8 +3321,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 7
   rotationSpeed: 8
-  rotationSensitivity: 5
-  clicksNeeded: 5
+  duration: 5
+  finalRotation: {x: 74, y: 184, z: 180}
 --- !u!1001 &911737683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3667,8 +3667,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 0
   rotationSpeed: 8
-  rotationSensitivity: 5
-  clicksNeeded: 5
+  duration: 5
+  finalRotation: {x: 275, y: 345, z: 12}
 --- !u!95 &976151794
 Animator:
   serializedVersion: 7
@@ -4201,8 +4201,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 4
   rotationSpeed: 8
-  rotationSensitivity: 5
-  clicksNeeded: 5
+  duration: 5
+  finalRotation: {x: 65, y: 175, z: 176}
 --- !u!1 &1265821619
 GameObject:
   m_ObjectHideFlags: 0
@@ -5969,8 +5969,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 3
   rotationSpeed: 8
-  rotationSensitivity: 5
-  clicksNeeded: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
 --- !u!1001 &1691704672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6082,8 +6082,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 1
   rotationSpeed: 8
-  rotationSensitivity: 5
-  clicksNeeded: 5
+  duration: 5
+  finalRotation: {x: 88, y: 177, z: 181}
 --- !u!1001 &1755222511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6940,15 +6940,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960063228}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a867f305f6441804a812f04ac0518766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: 3
   rotationSpeed: 8
-  rotationSensitivity: 5
-  clicksNeeded: 5
+  duration: 5
+  finalRotation: {x: 82, y: 174, z: 172}
 --- !u!1001 &1983014153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7051,6 +7051,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1383546673}
     m_Modifications:
+    - target: {fileID: 753291741931648762, guid: 36c85408af998784b82c0da7b62a9126,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 753291741931648762, guid: 36c85408af998784b82c0da7b62a9126,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 355
+      objectReference: {fileID: 0}
     - target: {fileID: 4664554385750938975, guid: 36c85408af998784b82c0da7b62a9126,
         type: 3}
       propertyPath: m_Name
@@ -7173,8 +7183,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 2
   rotationSpeed: 8
-  rotationSensitivity: 5
-  clicksNeeded: 5
+  duration: 5
+  finalRotation: {x: 0, y: 0, z: 0}
 --- !u!1001 &2126190671
 PrefabInstance:
   m_ObjectHideFlags: 0
