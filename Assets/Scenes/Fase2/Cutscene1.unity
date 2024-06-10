@@ -3873,7 +3873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemToPassToNextScene: 0
-  nextScene: Pergunta 2
+  nextScene: Cutscene2
   finalAngle: {x: 275, y: 345, z: 12}
   backgroundColor: {r: 0.84313726, g: 0.8392157, b: 0.8509804, a: 1}
 --- !u!4 &322899032
@@ -9235,8 +9235,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522574052}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.2727855, y: -0.012413637, z: 0.0035135162, w: -0.9619884}
-  m_LocalPosition: {x: -6.9287114, y: 20.250774, z: -2.8856668}
+  m_LocalRotation: {x: 0.15419263, y: -0.0000049037403, z: 0.00000093897035, w: 0.98804086}
+  m_LocalPosition: {x: 5.152525, y: 2.079008, z: 21.44942}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

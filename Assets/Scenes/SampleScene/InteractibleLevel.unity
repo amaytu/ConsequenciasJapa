@@ -1525,7 +1525,7 @@ MonoBehaviour:
   itemType: 9
   rotationSpeed: 8
   duration: 5
-  finalRotation: {x: 0, y: 0, z: 0}
+  finalRotation: {x: 3, y: 179, z: 1}
 --- !u!1 &371770120 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4664554385750938975, guid: 36c85408af998784b82c0da7b62a9126,

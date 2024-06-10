@@ -745,7 +745,7 @@ MonoBehaviour:
   - {fileID: 1189346719}
   fase:
   - Cutscene2-1
-  - Cutscene1
+  - Pergunta 2
 --- !u!1 &707994538
 GameObject:
   m_ObjectHideFlags: 0
