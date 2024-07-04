@@ -83,6 +83,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase3/Cutscene3-6.unity
     guid: 8834bb48784953342b03af7d2e59e484
+  - enabled: 1
+    path: Assets/Scenes/SampleScene/FinalScene.unity
+    guid: 479434b357c896b4d839cde017f6e012
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 341790fd3364d1a4e9d5a17ae0ace0c3,
       type: 2}

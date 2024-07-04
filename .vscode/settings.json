@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Projeto_FFM_2023_Consequencias _APP_RVi.sln"
+    "dotnet.defaultSolution": "ConsequenciasJapa.sln"
 }
